@@ -24,6 +24,9 @@ only understands plain `==…==`.
 A lone `=` may appear inside a run (`==a = b==`), but a run cannot span lines.
 Anything inside inline code or fenced code is left alone.
 
+Try it on [examples/highlight-demo.md](examples/highlight-demo.md) — six colors, a code
+span that must stay literal, and a callout row from the sibling List Callouts plugin.
+
 ## Install
 
 ```sh

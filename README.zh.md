@@ -20,6 +20,8 @@
 
 高亮里可以出现单个 `=`（`==a = b==`），但不能跨行；行内代码与代码块里的 `==…==` 不会被处理。
 
+可以拿 [examples/highlight-demo.md](examples/highlight-demo.md) 试：六色高亮、一段必须保持字面量的行内代码，以及一条来自 List Callouts 的批注行。
+
 ## 安装
 
 ```sh
