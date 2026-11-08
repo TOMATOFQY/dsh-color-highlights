@@ -369,10 +369,10 @@ function renderDocument(md, text, env) {
 			let frame = 0;
 
 			const surfaceEnabled = (node) => {
-				const doc = node.closest(DOC_SCOPE);
-				const chat = node.closest(CHAT_SCOPE);
-				if (doc !== null) return settings.markdownHighlights === true;
-				if (chat !== null) return settings.chatHighlights === true;
+				const element = node.parentElement;
+				if (element === null) return false;
+				if (element.closest(DOC_SCOPE) !== null) return settings.markdownHighlights === true;
+				if (element.closest(CHAT_SCOPE) !== null) return settings.chatHighlights === true;
 				return false;
 			};
 
