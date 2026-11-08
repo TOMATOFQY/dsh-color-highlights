@@ -1,0 +1,3 @@
+- insert:
+    - id: color-highlights
+      name: '@local/dsh-color-highlights'

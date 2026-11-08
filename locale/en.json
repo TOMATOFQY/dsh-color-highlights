@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Color Highlights",
+    "description": "Renders ==…== and ==🔴…== highlights in Markdown file previews and Chat messages, with one switch per surface."
+  }
+}

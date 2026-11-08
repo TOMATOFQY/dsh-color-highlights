@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Color Highlights",
+    "description": "在 Markdown 文件预览和聊天消息里渲染 ==…== 与 ==🔴…== 彩色高亮；文档与聊天各有一个开关。"
+  }
+}
