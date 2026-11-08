@@ -24,6 +24,18 @@ only understands plain `==…==`.
 A lone `=` may appear inside a run (`==a = b==`), but a run cannot span lines.
 Anything inside inline code or fenced code is left alone.
 
+## Screenshots
+
+Demo scenes with placeholder text, rendered from this plugin's own stylesheet:
+Chat, the sidebar document preview (including a code block where `==…==` stays
+literal), and the configuration page of the bundle.
+
+![Demo Chat](screenshots/demo-chat.png)
+
+![Demo document preview](screenshots/demo-document.png)
+
+![Demo configuration page](screenshots/demo-settings.png)
+
 Try it on [examples/highlight-demo.md](examples/highlight-demo.md) — six colors, a code
 span that must stay literal, and a callout row from the sibling List Callouts plugin.
 

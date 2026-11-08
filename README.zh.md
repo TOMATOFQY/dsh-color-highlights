@@ -20,6 +20,16 @@
 
 高亮里可以出现单个 `=`（`==a = b==`），但不能跨行；行内代码与代码块里的 `==…==` 不会被处理。
 
+## 截图
+
+下面三张是**占位内容的示意图**，用插件自己的样式表渲染：聊天、侧边栏文档预览（其中代码块里的 `==…==` 保持字面量）、以及 bundle 的配置页。
+
+![聊天示意](screenshots/demo-chat.png)
+
+![文档预览示意](screenshots/demo-document.png)
+
+![配置页示意](screenshots/demo-settings.png)
+
 可以拿 [examples/highlight-demo.md](examples/highlight-demo.md) 试：六色高亮、一段必须保持字面量的行内代码，以及一条来自 List Callouts 的批注行。
 
 ## 安装
